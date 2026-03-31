@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+<style>   
+    /* Style for the form container */
+    .in{
+       text-align: center;
+        width: 80%;
+        margin: auto;
+        border: 1px solid rgb(39, 18, 18);
+        padding: 20px;
+    }
+    /* Style for the form elements */
+    .head{
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        background-color: rgb(210, 248, 240);
+        color: rgb(39, 18, 18);
+        border: 2px solid rgb(39, 18, 18);
+        background-image: url('bg.jpg');
+        
+    }
+    .signup{
+        border:1px solid rgb(39, 18, 18);
+        background-color: white;
+    }
+#contact {
+    width: 50%;
+    margin: auto;
+    border: 5px solid rgb(39, 18, 18);
+  
+}
+    </style>
+</head>
+
+
+<body style="background-color: rgb(210, 248, 240);">
+    <section id="contact" style="background-image: url('bg.jpg');">
+<div class="head"><p>Welcome to Dilip's Online Store! Please login or sign up to continue.</p></div>
+<div class="in"><form action="index.html" method="get">
+    User ID:<br>
+    <input type="text" id="username" name="username" required><br><br>
+    
+        Email or Phone Number:<br>
+   <input type="text" id="email" name="email" required><br><br>
+
+  Password:<br>
+    <input type="password" id="password" name="password" required><br><br>
+    <input type="submit" value="Login" href="index.html">
+
+    <input type="reset" value="Reset">
+    <a href="https://member.daraz.com.np/user/register" class="signup">Sign Up</a>
+
+    </form></div></section>
+</body>
+</html>
